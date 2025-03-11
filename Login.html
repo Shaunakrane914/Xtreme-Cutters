@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .div {
+            width: 300px;
+            border: 15px solid green;
+            padding: 20px;
+            margin: 15px auto; /* Centering */
+            background-image: url('https://www.w3schools.com/css/img_flwr.gif');
+            background-size: cover;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Login</h1>
+    <form class="div">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" size="35" placeholder="Username"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" size="35" placeholder="Password"><br><br>
+
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label><br><br>
+
+        <a href="#">Forgot Password?</a><br><br>
+
+        <input type="submit" value="Login"><br><br>
+
+        <p>Don't have an account? <a href="#">Register</a></p>
+    </form>
+</body>
+</html>
